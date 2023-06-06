@@ -5,7 +5,18 @@
     <title>The Scala.js Tutorial</title>
   </head>
   <body>
+    <button id="click-me-button" type="button" onclick="addClickedMessage()">
+      Click me!
+    </button>
+
     <!-- Include Scala.js compiled code -->
     <script type="text/javascript" src="./target/scala-3.2.2/scala-js-tutorial-fastopt.js"></script>
+    <script>
+      try {
+        testError()
+      } catch(e) {
+        console.log(e)
+      }
+    </script>
   </body>
 </html>
