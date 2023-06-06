@@ -12,3 +12,6 @@ target/
 
 /project/metals.sbt
 /project/.bloop
+/project/project
+
+node_modules
