@@ -1,0 +1,13 @@
+target/
+
+# eclipse project files
+/.settings
+/.classpath
+/.project
+
+/.metals
+/.vscode
+/.bloop
+/.bsp
+
+/project/metals.sbt
