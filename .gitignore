@@ -11,3 +11,4 @@ target/
 /.bsp
 
 /project/metals.sbt
+/project/.bloop
